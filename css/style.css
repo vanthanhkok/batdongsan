@@ -1,0 +1,336 @@
+@import "../fonts/roboto/style.css";
+
+body {
+    font-family: "Roboto Regular", arial, helvetica, sans-serif;
+    font-size: 13px;
+    outline: none !important;
+}
+
+strong {
+    font-weight: normal;
+    font-family: "Roboto bold", arial, helvetica, sans-serif;
+}
+
+a {
+    outline: none;
+    color: #013e7e;
+    text-decoration: none !important;
+}
+.logo {
+    padding: 26px 0px 8px 0;
+}
+.logo > a > img {
+    width: 100%;
+}
+
+p.counterBar {
+    margin-bottom: 0;
+    float: left;
+    width: 30%;
+    padding: 5px 0;
+}
+
+.header {
+    border-top: 3px #013e7e solid;
+    padding-bottom: 10px;
+}
+
+p.counterBar > a {
+    font-size: 12px;
+}
+
+.navigatorBar {
+    float: left;
+    position: relative;
+    width: 70%;
+}
+
+.socialBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socialBar ul > li {
+    float: left;
+}
+
+.socialBar ul > li > a {
+    padding: 0 10px;
+}
+
+.bar_rightHeader {
+    overflow: hidden;
+}
+
+.canvasLeft {
+    width: 5%;
+    height: 24px;
+    background: url("../images/canvasLeft.png") left center no-repeat;
+    display: block;
+    background-size: 100% 24px;
+    float: left;
+}
+.canvasRight {
+
+    width: 5%;
+
+    height: 24px;
+
+    background: url("../images/canvasRight.png") left center no-repeat;
+
+    display: block;
+
+    background-size: 100% 24px;
+
+    float: left;
+}
+.canvasCenter {
+    float: left;
+    background: #0076C0;
+    height: 24px;
+    width: 90%;
+    padding: 2px 0;
+}
+.socialBar ul li a {
+    color: #fff;
+}
+a.lag_en {
+    display: block;
+    overflow: hidden;
+    text-indent: -99px;
+    background: url("../images/flag_en.png") no-repeat center;
+}
+.loginBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.loginBar ul li {
+    float: left;
+}
+
+.loginBar ul li a {
+    color: #fff;
+    padding: 0 16px;
+}
+.banner_rightHeader {
+    margin-top: 4px;
+}
+.dangtin > a {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.dangtin {
+    text-align: right;
+    padding: 22px 0;
+    border: none;
+}
+.menu {
+    height: 50px;
+    background: #013E7E;
+    border-bottom: 5px #002e5e solid;
+}
+
+ul.listMenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.listMenu > li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+ul.listMenu > li ul {
+    display: none;
+}
+
+ul.listMenu > li > a {
+    display: block;
+    color: #FFF;
+    font-size: 13px;
+    font-family: "Roboto Bold";
+    padding: 16px 10px;
+}
+ul.listMenu > li > a.home {
+    font-size: 21px;
+    padding: 8px 16px;
+    background: #002E5E;
+}
+
+ul.listMenu > li:hover > ul {
+    display: block;
+}
+
+ul.listMenu > li > ul {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    margin: 0;
+    width: 200px;
+    background: #002E5E;
+    top: 50px;
+}
+ul.listMenu > li > ul li a {
+    color: #fff;
+    padding: 8px 16px;
+    display: block;
+    border-bottom: 1px rgba(34, 108, 185, 0.37) dotted;
+}
+ul.listMenu > li > ul li:last-child a  {
+    border-bottom: none;
+}
+.slider {
+    position: relative;
+    margin-top: 8px;
+}
+
+ul.lSPager.lSpg {
+    margin-top: 0px!important;
+    position: absolute;
+    width: 100%;
+}
+
+.lSSlideOuter {
+    position: relative;
+}
+.focusArea {
+    margin: 8px 0;
+}
+.title-1 {
+    background: #013e7e;
+    padding: 7px 13px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px #002E5E solid;
+    font-family: "Roboto Bold";
+}
+
+.title-1 > i {
+    margin-right: 26px;
+}
+.searchInner {
+    margin-top: 6px;
+}
+select.select2s {
+    width: 100%;
+    border: 1px #e9e9e9 solid;
+    height: 30px;
+    margin-bottom: 3px;
+    padding: 4px;
+    color: #2F2F2F;
+    background: url(../images/selectdown.png) right center no-repeat #e9e9e9;
+    outline: none;
+    -webkit-appearance: none;
+}
+.tab-content {
+    padding: 6px 0;
+}
+button.submit-1 {
+    border: none;
+    width: 100%;
+    padding: 7px;
+    text-transform: uppercase;
+    font-family: "Roboto Bold";
+    background: #013E7E;
+    color: #fff;
+}
+.highlightInner {
+    margin-top: 7px!important;
+}
+.titleHighlight {
+    text-align: justify;
+    line-height: 15px;
+    border-bottom: 1px #E8E8E8 solid;
+    padding-bottom: 8px;
+    margin-top: 6px;
+}
+
+.attributesHightlight >ul {
+    padding: 0;
+    list-style: none;
+}
+
+.attributesHightlight > ul > li {
+    clear: both;
+    overflow: hidden;
+    margin: 4px 0;
+}
+.pull-left.nameAttr {
+    width: 50%;
+    color: #888;
+}
+
+.pull-left.valueAttr {
+    color: #888;
+}
+
+div#ads2 {
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+div#ads21 {
+    width: 50%;
+}
+
+div#ads22 {
+    width: 50%;
+}
+.box {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.part {
+    padding: 0 4px;
+}
+.contactbox {
+    padding: 8px;
+    border: 1px #eaeaea solid;
+    margin-top: 8px;
+}
+
+.contactbox > h3 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px #eaeaea solid;
+}
+.contactbox > ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+.contactbox > ul > li {
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+.icon_contact {
+    width: 20%;
+}
+
+.icon_contact > i {
+    padding: 12px;
+    background: #ffc324;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #013e7e;
+}
+
+.value_contact {
+    width: 80%;
+    padding: 10px;
+}
